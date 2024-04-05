@@ -6,7 +6,7 @@ def is_palindrome(value):
     for i in range(len(value)):
         # Imprime los caracteres que se están comparando en esta iteración
         # En el ultimo test donde se pone "hola" imprime solo h y a, al no ser iguales corta ahi
-        print("Comparando:", value[i], "y", value[-(i + 1)])
+        print("Comparando:", value[i], "y", value[-(i + 1)]) # -(0 + 1)
         
         # Comprueba si el carácter en la posición actual no es igual al carácter
         # simétrico opuesto en la cadena
